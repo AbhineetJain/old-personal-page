@@ -215,7 +215,7 @@
                                 Machine Learning
                             </div>
                             <div class="project-name">
-                                Analysis of Deep Learning Neural Networks 
+                                Markov Random Fields and Conditional Random Fields
                             </div>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
         <h4 class="modal-title">Visiting Scholar, Robotics Embedded Systems Laboratory</h4>
       </div>
       <div class="modal-body">
-        <p>Abhineet Jain, Oliver Kroemer, Gaurav S. Sukhatme.<br> Exploring CNN based feature transfer for Robot Affordances, July 2016. <a href="USCPoster.pdf">[poster]</a><a href="">[ppt]</a></p>
+        <p>Abhineet Jain, Oliver Kroemer, Gaurav S. Sukhatme.<br> Exploring CNN based feature transfer for Robot Affordances, July 2016. <a href="USCPoster.pdf">[poster]</a><a href="USC_Presentation.pdf">[ppt]</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -387,7 +387,14 @@
         <h4 class="modal-title">Teaching Assistant</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>Teaching Assistant for four semesters:
+          <ul>
+            <li>Monsoon 2015, Digital Logic and Processor, Dr. K. Madhava Krishna</li>
+            <li>Spring 2016, Computer Systems Organization, Dr. R. Govindrajulu</li>
+            <li>Monsoon 2016, Computer Programming, Dr. Anoop M. Namboodiri</li>
+            <li>Spring 2017, Computer Vision, Dr. Anoop M. Namboodiri</li>
+          </ul> 
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -407,7 +414,14 @@
         <h4 class="modal-title">Dynamic Semantic Motion Segmentation</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>I was working on implementing incremental surface reconstruction and tracking in dynamic scenes. 
+          <li>To segment moving objects in a given frame, we used epipolar constraint with stereo camera and joint inference with semantics using Dense CRF formulation for improving motion labelling.</li>
+          <li>For tracking and fusion, we used Kinect Fusion: InfiniTAM library. The library was used to return rotational (R) and translational (T) parameters between two consecutive frames from KITTI car dataset. </li>
+          <li>We used these parameters to represent the scene in a voxel grid. The idea was to fuse and find the surface of the moving object in an incremental fashion in these voxels after every frame using TSDF ray casting. </li>
+          <li>We used keypoint matching using SIFT features, and R & T parameters from the library to reconstruct the static scene by taking a weighted sum of both. </li>
+          <li>We applied Medioni’s transformation to reconstruct the object in motion, separately. </li>
+          <li>The project could not achieve the desired results as the R & T so obtained in voxel space were only accurate up to a scale, given less features on a moving object and hence, point cloud registration failed for moving objects.</li>
+</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -427,7 +441,16 @@
         <h4 class="modal-title">ACM - ICPC</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>Participated in ACM International Collegiate Programming Contest (ICPC) and secured:
+          <ul>
+            <li>ACM ICPC Kharagpur 2016, Online: 9 (team: YeToBadaToingHai)</li>
+            <li>ACM ICPC Amritapuri 2016, Online: 32 (team: YeToBadaToingHai)</li>
+            <li>ACM ICPC Amritapuri 2015, Online: 64, Onsite: 51 (team: placeboEffect)</li>
+            <li>ACM ICPC Chennai 2015, Online: 40, Onsite: 62 (team: placeboEffect)</li>
+            <li>ACM ICPC Amritapuri 2014, Online: 56, Onsite: 97 (team: placeboEffect)</li>
+            <li>ACM ICPC Kharagpur 2014, Online: 79 (team: placeboEffect)</li>
+          </ul>
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -467,7 +490,15 @@
         <h4 class="modal-title">Dance Performances</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p  style="text-align:center;">
+          i am an active participant in the cultural activities on campus. I have experience in directing and leading dance performances.
+          Here are a few images for reference. Videos coming soon. <br><br>
+          <img src="img/dance1.JPG" style="width:50%;"> <br><br>
+          <img src="img/dance2.JPG" style="width:50%;"> <br><br>
+          <img src="img/dance3.JPG" style="width:50%;"> <br><br>
+          <img src="img/dance4.JPG" style="width:50%;"> <br><br>
+          <img src="img/dance5.JPG" style="width:50%;">
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -487,7 +518,7 @@
         <h4 class="modal-title">Image Mosaicing and Metric Rectification</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>Report with code. <a href="CV_Report.pdf">[pdf]</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -504,10 +535,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Analysis of Deep Learning Neural Networks</h4>
+        <h4 class="modal-title">Markov Random Fields and Conditional Random Fields</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>Term Paper. <a href="ML_TermPaper.pdf">[pdf]</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -527,7 +558,38 @@
         <h4 class="modal-title">Obstacle Detection and Avoidance</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>
+          Assumptions:
+           <li> The problem assumes the radius of the robot as 0.5 units.</li>
+           <li> The obstacles are only rectangular in shape.</li>
+           <li> The area is limited to 15 x 15 units (for visualization purposes).</li>
+        </p>
+        <p>
+          Reading the Plot:
+           <li> The solid filled rectangles represent the obstacles.</li>
+           <li> The dotted lines around the obstacles represent the offset for the robot.</li>
+           <li> The green lines represent edges of the visibility graph that were not finally selected.</li>
+           <li> The red lines represent edges constituting the shortest path from start to goal.</li>
+           <li> The start and goal points have been exclusively mentioned on the plot.</li>
+           <li> The blue curve is the final path the robot will undertake.</li>
+           <li> The points marked with '*' are the intermediate points.</li>
+        </p>
+        <p>
+          Approach:
+           <li> Initialization of start, goal, obstacles, offsets.</li>
+           <li> Constructing an adjacency matrix</li>
+           <li> Revising the adjacency matrix based on intersection with obstacle.</li>
+           <li> Feeding the adjacency matrix to dijkstra(), implemented as a separate function.</li>
+           <li> The output of dijkstra() is used to compute the Bernstein curve, as done in the last part of the project. </li>
+           <li> The code is now generalized for maximum 3 intermediate points, order has been set constant at 5.</li>
+           <li> The graph is plotted in sequence, and can be visualized as an animation.</li>
+        </p>
+        <p>
+           Graphs related to 2 testcases are shown.
+         
+          <img src="img/1b_testcase1.png" style="width:100%;">
+          <img src="img/1b_testcase4.png" style="width:100%;">
+         </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
